@@ -90,7 +90,9 @@ body {
 
 .mijloc-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Optional for spacing */
+    flex-wrap: wrap;
+    gap: 20px; /* Add spacing between items */
     
 }
 
@@ -99,6 +101,8 @@ body {
     height: 200px;
     width: 200px;
     flex-direction: column;
+    flex: 1 1 calc(25% - 20px); /* Adjust width for 4 items per row minus the gap */
+    max-width: 200px; /* Limit the maximum size of each box */
 
 }
 
