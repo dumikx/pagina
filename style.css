@@ -1,4 +1,6 @@
-body
+body {
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
 
 
@@ -15,9 +17,9 @@ body
 }
 
 .logo {
-font-size: 24px;
-color: #f9faf8;
-font-weight: 800;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
 }
 
 .sus {
@@ -68,4 +70,114 @@ font-weight: 800;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mijloc {
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 200px;
+}
+
+.mijloc-sus {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900
+    ;
+}
+
+.mijloc-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.mijloc-cutie {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+
+}
+
+.cutie-text {
+    text-align: center;
+}
+
+.citat {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-left: 400px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 400px;
+}
+
+.citat-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.autor {
+    display: flex;
+    align-self: flex-end;
+}
+
+.footer {
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+
+.footer-text {
+    display:flex;
+    background-color: #3882f6;
+    padding: 30px;
+    gap: 30px;
+}
+
+.footer-stanga {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.footer-buton {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    border: white 1px solid;
+    font-weight: 800;
+
+
+}
+
+.footer-call {
+    font-weight: 800;
+
+}
+
+.final {
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
